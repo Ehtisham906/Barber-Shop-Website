@@ -1,0 +1,227 @@
+/* Jumbotron Css */
+.paraGraph {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+/* h2{
+  position: relative;
+  font-size: 2vw;
+  color: White ;
+  /* -webkit-text-stroke: 0.1vw #383d52; */
+/* } */
+/* h2::before{ */
+  /* content: attr  (data-text); */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* color: orange; */
+  /* -webkit-text-stroke: 0vw ; */
+  /* border-right: 2px solid orange; */
+  /* overflow: hidden; */
+  /* animation: animate 4s linear infinite; */
+/* } */
+/* @keyframes animate{
+   
+    0%,10%,100%
+    {
+      width: 0;
+    }
+    70%,90%
+    {
+      width:38% ;
+    }
+   
+} */
+#span{
+  width: 100%;
+  position: relative;
+  /* overflow: hidden; */
+  font-size: 3vw;
+  color: transparent ;
+  -webkit-text-stroke: 0.1vw #383d52;
+}
+#span::before{
+  
+  content: attr(data-text);
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: orange;
+  -webkit-text-stroke: 0vw ;
+  border-right: 2px solid orange;
+  overflow: hidden;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+   
+  0%,10%,100%
+  {
+    width: 0%;
+  }
+  70%,100%
+  {
+    width:35%;
+  }
+ 
+}
+#span1{
+  width: 100%;
+  position: relative;
+  font-size: 3vw;
+  color: transparent ;
+  -webkit-text-stroke: 0.1vw #383d52;
+}
+#span1::before{
+  
+  content: attr(data-text);
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: orange;
+  -webkit-text-stroke: 0vw ;
+  border-right: 2px solid orange;
+  overflow: hidden;
+  animation: animated 3s linear infinite;
+}
+@keyframes animated
+{
+   
+  0%,10%,100%
+  {
+    width: 0%;
+  }
+  70%,100%
+  {
+    width:47%;
+  }
+ 
+}
+#jumbotronButton1{
+  border: 1px white solid;
+}
+#jumbotronButton2{
+  margin-left: 10px;
+  border: 1px white solid;
+}
+
+.heading_1 {
+  color: white;
+  font-weight: bolder;
+}
+.jumbotron {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  overflow: hidden;
+  height:76vh;
+}
+.imageDiv {
+  /* width: 80px; */
+  height: 15vh;
+  background-image: url(../images/seat.jpeg);
+  background-size: cover;
+  /* position: relative;
+  top: -190px; */
+  border: orange solid 5px;
+  border-radius: 50%;
+}
+.mainBook {
+  border: solid 5px orange;
+  border-radius: 50%;
+  /* position: relative; */
+  /* left: 30px; */
+  /* top: 86px; */
+  /* width: 300px; */
+}
+#welcomNote{
+    height:40px;
+    margin-top: 120px;
+}
+
+
+
+#tiltImg {
+  position: relative;
+  rotate: 10deg;
+  border-radius: 22px;
+}
+#outerDiv1 {
+  border-radius: 22px;
+  /* background-color: rgb(252, 194, 87); */
+  background-color: rgb(223, 156, 33);
+  height: 300px;
+}
+#outerDiv2 {
+  border-radius: 22px;
+  background-color: rgb(223, 156, 33);
+  height: 300px;
+}
+#btnBarbers {
+  position: relative;
+  bottom: 48px;
+  padding: 7px 20px;
+  border-radius: 30px;
+  border-color: white;
+}
+#middleSection {
+  background-image: url(../images/gg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 150px 0px 150px 0px;
+}
+.priceListPara {
+  font-weight: bold;
+  font-size: 13px;
+}
+#colorDiv {
+  background-color: rgb(223, 156, 33);
+  /* background-color: rgb(252, 194, 87); */
+  /* width: ; */
+  height: 100%;
+  border-radius: 20px;
+}
+.backgroundOnly {
+  /* width: 100%; */
+  height: 100%;
+  background-color: red;
+  background-image: url(../images/shoppic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  rotate: 5deg;
+  border-radius: 20px;
+}
+.sayHelloParaa {
+  color: orange;
+}
+
+#outerDivColor {
+  background-color: rgb(252, 194, 87);
+  border-radius: 20px;
+  rotate: -5deg;
+}
+.innerDiv {
+  padding: 23px 23px 23px 23px;
+  border-radius: 20px;
+  height: 100%;
+  color: white;
+  rotate: 10deg;
+  background-color: rgb(109, 6, 6);
+}
+#map-container-google-1 {
+  height: 500px;
+  width: 100%;
+}
+
+#barbabellaBarbershop {
+  color: orange;
+}

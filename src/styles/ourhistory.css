@@ -1,0 +1,52 @@
+#ourHistoryouter {
+  border: 9px solid rgb(155, 232, 232);
+  padding: 50px 19px 50px 19px;
+}
+#ourHistoryHeading {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+#ourHistorybtn {
+  border: 3px solid white;
+  color: white;
+}
+#ourHistorypara {
+  color: white;
+  font-size: 15px;
+}
+.bodyColor {
+  height: 100vh;
+  background-image: url(../images/our.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  /* background: linear-gradient(
+        to right, 
+        pink 0%, 
+        pink 50%,
+        paleturquoise 50%,
+        paleturquoise 100%); */
+}
+#formScroll {
+  margin-top: 90px;
+  background-size: cover;
+  height: 900px;
+}
+#formDiv {
+  border: 3px solid orange;
+  background-color: white;
+  border-radius: 30px;
+  align-self: center;
+  height: 600px;
+  /* border: 4px solid bl; */
+  box-shadow: 19px 19px 90px black;
+}
+.formHeading {
+  font-weight: bold;
+  /* font-size: 60px; */
+}
+#formBtn {
+  border-radius: 30px;
+}

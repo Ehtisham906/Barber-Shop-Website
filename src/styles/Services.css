@@ -1,0 +1,38 @@
+#servicesContainer {
+  padding: 22px 0px 0px 0px;
+}
+.service1 {
+  padding: 20px;
+  background-image: url(../images/classic\ haircut.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.service2 {
+  padding: 20px;
+  background-image: url(../images/shaving-beard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.service3 {
+  padding: 20px;
+  height: inherit;
+  background-image: url(../images/kidsservice.jpg);
+  background-size: cover;
+  /* background-position-y: 50px;
+    background-position-y: 0; */
+  background-repeat: no-repeat;
+}
+.service4 {
+  padding: 20px;
+  background-image: url(../images/colortretment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -20px;
+}
+.servicesHeading {
+  font-weight: bold;
+}
+.prtdiv1{
+    height: 250px;
+    border:2px solid white;
+}

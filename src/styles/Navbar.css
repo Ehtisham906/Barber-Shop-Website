@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgb(36, 36, 36);
+    /* opacity: 0.9 */
+}
+.nav-item{
+    font-size: 20px;
+    color: white;
+    transition: 0.2s;
+}
+.navbarItem:hover{
+    opacity: 0.3;
+    color: white;
+    border-radius: 30px;
+    
+}
