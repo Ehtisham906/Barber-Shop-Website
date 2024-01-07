@@ -1,4 +1,8 @@
 /* Jumbotron Css */
+*{
+  margin: 0;
+  padding: 0;
+}
 .paraGraph {
   font-size: 12px;
   color: white;
@@ -76,13 +80,24 @@
 #jumbotronButton1:hover {
   border: 1px white solid;
   background-color: green;
-  font-size: 44px;
+  color: white;
+  border: 1px solid green;
+  /* font-size: 44px; */
   cursor: pointer;
 }
 
 #jumbotronButton2 {
   margin-left: 10px;
-  border: 1px white solid;
+  /* border: 1px  solid; */
+}
+#jumbotronButton2:hover{
+  margin-left: 10px;
+  border: 1px solid green;
+  background-color: green;
+}
+#bookBtn:hover{
+  background-color: green;
+  border: 1px solid green;
 }
 
 .heading_1 {
@@ -99,15 +114,15 @@
   background-size: cover;
   position: relative;
   top: -190px;
-  border: orange solid 5px;
+  border: orange solid 3px;
   border-radius: 50%;
 }
 .mainBook {
-  border: solid 5px orange;
+  border: solid 3px orange;
   border-radius: 50%;
 }
 #welcomNote {
-  height: 40px;
+  
   margin-top: 120px;
 }
 

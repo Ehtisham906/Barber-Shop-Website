@@ -7,35 +7,39 @@ import '../styles/FirstPage.css'
 export default function FirstPage() {
     return (
         <>
-            <div className="container-fluid jumbotron  ">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="" id="welcomNote">
-                            <h2 className='text-white'>WELCOME TO</h2>
-                            <h1 data-text="BARBELLA" id='span' className='mt-3'>BARBELLA</h1>
-                            <h1 data-text="BARBERSHOP" id='span1'>BARBERSHOP</h1>
+            <div className="container-fluid jumbotron pt-5 pb-5 ps-5 ">
+                <div className="row justify-content-between align-items-end">
+                    <div className="col-12 col-md-6  col-lg-6 col-xl-6 col-xxl-6" id="welcomNote">
+                        <h2 className='text-white'>WELCOME TO</h2>
+                        <h1 data-text="BARBELLA" id='span' className='mt-3'>BARBELLA</h1>
+                        <h1 data-text="BARBERSHOP" id='span1'>BARBERSHOP</h1>
+                        <div>
+
                             <p className='paraGraph' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod facere deleniti architecto corporis tenetur,<br />
                                 ex assumenda repellat maxime fugit, perspiciatis dignissimos cumque nam recusandae neque animi suscipit! Veritatis, possimus. </p>
                             <button className="btn text-white jumbotonBtn1" id="jumbotronButton1" data-target="" >About Us</button>
                             <button className="btn btn-danger jumbotonBtn2" id="jumbotronButton2" data-target="" >What We do</button>
-
                         </div>
 
                     </div>
-                    <br />
-                    <div className="row bookingDiv col-12 col-lg-12 justify-content-end  mt-5 ">
-                        <div className="mainBook mt-5 col-3 text-center  ">
 
+                    <div className="col-4 col-md-4 col-xl-3 col-xxl-3 mt-5 ">
+                        <div className="mainBook mt-5 text-center">
+                            <br />
                             <div className="text-white mt-5">
-                                <h5 className="heading_2" >Hurry Up! Get a Good Hair Cut.</h5>
-                                <div className="justify-content-center">
-                                    <button className="btn text-white bg-warning" id="bookBtn" >Book a
-                                        Seat</button>
+                                <div className='mt-5'>
+
+                                    <h6 className="heading_2" >Hurry Up! Get a Good Hair Cut.</h6>
+                                    <button className="btn text-white btn-danger col-6" id="bookBtn" >
+                                        <strong>
+                                            Book a Seat
+                                        </strong>
+                                    </button>
                                 </div>
+
                             </div>
                             <center>
-
-                                <div className="imageDiv col-4 col-sl-6 ">
+                                <div className="imageDiv col-4 ">
                                 </div>
                             </center>
 

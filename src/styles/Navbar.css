@@ -6,6 +6,8 @@
     font-size: 17px;
     transition: 0.3s;
     color: rgb(3, 4, 89);
+    border-bottom: orange solid 2px;
+    
     /* background-color: red; */
 
 }
