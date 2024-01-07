@@ -36,7 +36,7 @@
   }
   70%,
   100% {
-    width: 15.5%;
+    width:32%;
   }
 }
 #span1 {
@@ -68,13 +68,16 @@
   }
   70%,
   100% {
-    width: 20.5%;
+    width: 43%;
   }
 }
 
 #jumbotronButton1 {
   border: 1px white solid;
+  color: white;
   cursor: pointer;
+  /* text-decoration: none; */
+  /* text-decoration-style: none; */
 }
 
 #jumbotronButton1:hover {

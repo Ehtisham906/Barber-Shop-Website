@@ -2,7 +2,8 @@ import React from 'react'
 import me from '../images/Me.jpg'
 import barber1 from '../images/barber1.jpg'
 import '../styles/FirstPage.css'
-// import { Link } from 'react-router-dom'
+// import OurHistory from '../components/OurHistory'
+import { Link } from 'react-router-dom'
 
 export default function FirstPage() {
     return (
@@ -17,8 +18,17 @@ export default function FirstPage() {
 
                             <p className='paraGraph' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod facere deleniti architecto corporis tenetur,<br />
                                 ex assumenda repellat maxime fugit, perspiciatis dignissimos cumque nam recusandae neque animi suscipit! Veritatis, possimus. </p>
-                            <button className="btn text-white jumbotonBtn1" id="jumbotronButton1" data-target="" >About Us</button>
-                            <button className="btn btn-danger jumbotonBtn2" id="jumbotronButton2" data-target="" >What We do</button>
+                            <button className="btn text-white jumbotonBtn1" id="jumbotronButton1" data-target="" >
+                                <Link to="/ourhistory" style={{ textDecoration: "none", color: "white" }} >
+                                    About Us
+                                </Link>
+
+                            </button>
+                            <button className="btn btn-danger jumbotonBtn2" id="jumbotronButton2" data-target="" >
+                                <Link to={"services"} style={{ textDecoration: "none", color: "white" }}>
+                                    What We Do
+                                </Link>
+                            </button>
                         </div>
 
                     </div>

@@ -10,21 +10,19 @@ export default function Navbar(props) {
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <Link to="/" className="navbar-brand mr-auto"><img src={props.image} alt="" height="90"
-            width="90" />
+          <Link to="/" className="navbar-brand mr-auto"><img src={props.image} alt="" height="80"
+            width="110" />
             <img src="" alt="" />
           </Link>
           <div className="collapse navbar-collapse " id="navbar">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item navbarItem "><Link to='/' className="nav-link active"><span
+              <li className="nav-item navbarItem "><Link to='/' className="nav-link text-light"><span
                 className="fa fa-home "></span> Home</Link> </li>
-              <li className="nav-item navbarItem"><Link to="ourhistory" className="nav-link ">
-                <span className="fa fa-history "></span> Our
-                history</Link> </li>
-              <li className="nav-item navbarItem active"><Link to="services" className="nav-link "> <span
-                className="fa fa-wrench "></span>
-                Services</Link> </li>
-              <li className="nav-item navbarItem"><Link to="contact" className="nav-link "><span
+              <li className="nav-item navbarItem"><Link to="ourhistory" className="nav-link text-light">
+                <span className="fa fa-history "></span> Our History</Link> </li>
+              <li className="nav-item navbarItem active"><Link to="services" className="nav-link text-light"><span
+                className="fa fa-wrench "></span> Services</Link> </li>
+              <li className="nav-item navbarItem"><Link to="contact" className="nav-link text-light"><span
                 className="fa fa-address-book "></span> Contact</Link> </li>
             </ul>
           </div>
