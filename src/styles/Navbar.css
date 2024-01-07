@@ -1,19 +1,13 @@
-#navbar{
-    background-color: rgb(36, 36, 36);
-    
+#navbar {
+  background-color: rgb(36, 36, 36);
 }
-#navbar ul li:hover{
-    font-size: 17px;
-    transition: 0.3s;
-    color: rgb(3, 4, 89);
-    border-bottom: orange solid 2px;
-    
-    /* background-color: red; */
-
+#navbar ul li:hover {
+  font-size: 17px;
+  transition: 0.3s;
+  color: rgb(3, 4, 89);
+  border-bottom: orange solid 2px;
 }
 
 #navbar ul {
-    height: 40px;
-
+  height: 40px;
 }
-
