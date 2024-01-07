@@ -21,17 +21,17 @@ import {
 function App() {
   return (
     <>
-    
+
       <Router>
-    <Navbar image={image} FirstPage={FirstPage} />
-    
+        <Navbar image={image} FirstPage={FirstPage} />
 
 
-      <Routes>
+
+        <Routes>
           <Route excat path='/' element={<FirstPage />} />
-          <Route excat path='/ourhistory' element={<OurHistory/>} />
-          <Route excat path='/services' element={<Services/>} />
-          <Route excat path='/contact' element={<Contact/>} />
+          <Route excat path='/ourhistory' element={<OurHistory />} />
+          <Route excat path='/services' element={<Services />} />
+          <Route excat path='/contact' element={<Contact />} />
         </Routes>
       </Router>
     </>

@@ -1,15 +1,17 @@
-.navbar{
+#navbar{
     background-color: rgb(36, 36, 36);
-    /* opacity: 0.9 */
-}
-.nav-item{
-    font-size: 20px;
-    color: white;
-    transition: 0.2s;
-}
-.navbarItem:hover{
-    opacity: 0.3;
-    color: white;
-    border-radius: 30px;
     
 }
+#navbar ul li:hover{
+    font-size: 17px;
+    transition: 0.3s;
+    color: rgb(3, 4, 89);
+    /* background-color: red; */
+
+}
+
+#navbar ul {
+    height: 40px;
+
+}
+

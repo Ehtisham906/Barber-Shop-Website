@@ -4,112 +4,83 @@
   color: white;
   font-weight: bold;
 }
-/* h2{
-  position: relative;
-  font-size: 2vw;
-  color: White ;
-  /* -webkit-text-stroke: 0.1vw #383d52; */
-/* } */
-/* h2::before{ */
-  /* content: attr  (data-text); */
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* color: orange; */
-  /* -webkit-text-stroke: 0vw ; */
-  /* border-right: 2px solid orange; */
-  /* overflow: hidden; */
-  /* animation: animate 4s linear infinite; */
-/* } */
-/* @keyframes animate{
-   
-    0%,10%,100%
-    {
-      width: 0;
-    }
-    70%,90%
-    {
-      width:38% ;
-    }
-   
-} */
-#span{
+
+#span {
   width: 100%;
   position: relative;
-  /* overflow: hidden; */
-  font-size: 3vw;
-  color: transparent ;
-  -webkit-text-stroke: 0.1vw #383d52;
+  color: transparent;
+  -webkit-text-stroke: 0.1vw none;
 }
-#span::before{
-  
+#span::before {
   content: attr(data-text);
-  font-size: 3vw;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   color: orange;
-  -webkit-text-stroke: 0vw ;
+  -webkit-text-stroke: 0vw;
   border-right: 2px solid orange;
   overflow: hidden;
   animation: animate 3s linear infinite;
 }
-@keyframes animate
-{
-   
-  0%,10%,100%
-  {
+@keyframes animate {
+  0%,
+  10%,
+  100% {
     width: 0%;
   }
-  70%,100%
-  {
-    width:35%;
+  70%,
+  100% {
+    width: 15.5%;
   }
- 
 }
-#span1{
+#span1 {
   width: 100%;
   position: relative;
-  font-size: 3vw;
-  color: transparent ;
-  -webkit-text-stroke: 0.1vw #383d52;
+  color: transparent;
+  -webkit-text-stroke: 0.1vw none;
 }
-#span1::before{
-  
+#span1::before {
   content: attr(data-text);
-  font-size: 3vw;
+
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   color: orange;
-  -webkit-text-stroke: 0vw ;
+  -webkit-text-stroke: 0vw;
   border-right: 2px solid orange;
   overflow: hidden;
   animation: animated 3s linear infinite;
 }
-@keyframes animated
-{
-   
-  0%,10%,100%
-  {
+
+@keyframes animated {
+  0%,
+  10%,
+  100% {
     width: 0%;
   }
-  70%,100%
-  {
-    width:47%;
+  70%,
+  100% {
+    width: 20.5%;
   }
- 
 }
-#jumbotronButton1{
+
+#jumbotronButton1 {
   border: 1px white solid;
+  cursor: pointer;
 }
-#jumbotronButton2{
+
+#jumbotronButton1:hover {
+  border: 1px white solid;
+  background-color: green;
+  font-size: 44px;
+  cursor: pointer;
+}
+
+#jumbotronButton2 {
   margin-left: 10px;
   border: 1px white solid;
 }
@@ -121,33 +92,24 @@
 .jumbotron {
   background-image: url(../images/landing.jpg);
   background-size: cover;
-  overflow: hidden;
-  height:76vh;
 }
 .imageDiv {
-  /* width: 80px; */
   height: 15vh;
   background-image: url(../images/seat.jpeg);
   background-size: cover;
-  /* position: relative;
-  top: -190px; */
+  position: relative;
+  top: -190px;
   border: orange solid 5px;
   border-radius: 50%;
 }
 .mainBook {
   border: solid 5px orange;
   border-radius: 50%;
-  /* position: relative; */
-  /* left: 30px; */
-  /* top: 86px; */
-  /* width: 300px; */
 }
-#welcomNote{
-    height:40px;
-    margin-top: 120px;
+#welcomNote {
+  height: 40px;
+  margin-top: 120px;
 }
-
-
 
 #tiltImg {
   position: relative;

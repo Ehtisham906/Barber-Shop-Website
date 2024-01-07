@@ -1,60 +1,59 @@
 import React from 'react'
 import me from '../images/Me.jpg'
 import barber1 from '../images/barber1.jpg'
+import '../styles/FirstPage.css'
+// import { Link } from 'react-router-dom'
 
 export default function FirstPage() {
     return (
         <>
-         <div className="row jumbotron  ">
-                <div className="jumbotronContainer col-lg-12" id="jumbotronContents">
-                    <div className="col-5">
-                        <div className="text-white" id="welcomNote">
-                            {/* <h2 data-text="WELCOME TO BARBELLA BARBERSHOP">WELCOME TO BARBELLA BARBERSHOP</h2> */}
-                            <h2>WELCOME Ts
-                                <p data-text="BARBELLA" id='span' className='mt-3'>BARBELLA</p>
-                                <p data-text="BARBERSHOP" id='span1'>BARBERSHOP</p>
-                            </h2>
+            <div className="container-fluid jumbotron  ">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="" id="welcomNote">
+                            <h2 className='text-white'>WELCOME TO</h2>
+                            <h1 data-text="BARBELLA" id='span' className='mt-3'>BARBELLA</h1>
+                            <h1 data-text="BARBERSHOP" id='span1'>BARBERSHOP</h1>
                             <p className='paraGraph' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod facere deleniti architecto corporis tenetur,<br />
                                 ex assumenda repellat maxime fugit, perspiciatis dignissimos cumque nam recusandae neque animi suscipit! Veritatis, possimus. </p>
-                            <a className="btn text-white " id="jumbotronButton1" data-target="" href="/">About Us</a>
-                            <a className="btn btn-danger " id="jumbotronButton2" data-target="" href="/" >What We do</a>
+                            <button className="btn text-white jumbotonBtn1" id="jumbotronButton1" data-target="" >About Us</button>
+                            <button className="btn btn-danger jumbotonBtn2" id="jumbotronButton2" data-target="" >What We do</button>
 
                         </div>
+
                     </div>
+                    <br />
+                    <div className="row bookingDiv col-12 col-lg-12 justify-content-end  mt-5 ">
+                        <div className="mainBook mt-5 col-3 text-center  ">
 
-                </div>
-                <br />
-                <div className="row bookingDiv col-12    justify-content-end  mt-5 ">
-                    <div className="mainBook mt-5 col-3 text-center  ">
-
-                        <div className="text-white mt-5">
-                            <h5 className="heading_2" >Hurry Up! <br></br> Get a Good Hair Cut.</h5>
-                            <div className="justify-content-center">
-                                <button className="btn text-white bg-warning" id="bookBtn" >Book a
-                                    Seat</button>
+                            <div className="text-white mt-5">
+                                <h5 className="heading_2" >Hurry Up! Get a Good Hair Cut.</h5>
+                                <div className="justify-content-center">
+                                    <button className="btn text-white bg-warning" id="bookBtn" >Book a
+                                        Seat</button>
+                                </div>
                             </div>
+                            <center>
+
+                                <div className="imageDiv col-4 col-sl-6 ">
+                                </div>
+                            </center>
+
+
                         </div>
-                        <center>
-
-                            <div className="imageDiv col-4 col-sl-6 ">
-                            </div>
-                        </center>
-
-
                     </div>
                 </div>
             </div>
+
+
+
+
 
             <div className="container mt-5">
                 <div className="">
                     <h3 className='text-danger'>BEST HAIRDRESSERS</h3>
                     <p>
-                        Where every strand finds its perfect style. Elevating hair artistry one cut at a time. Welcome to the realm of the best hair magicians. <strong> <span className="text-warning ">
-                            Crafting confidence</span> </strong>, one snip and style at a time. Our shears weave magic into every strand, making dreams a reality. Step into our salon and let your hair tell its story in style."
-                        eum
-                        libero illo numquam dolorum temporibus.
-
-                    </p>
+                        Where every strand finds its perfect style. Elevating hair artistry one cut at a time. Welcome to the realm of the best hair magicians. <strong> <span className="text-warning ">Crafting confidence</span> </strong>, one snip and style at a time. Our shears weave magic into every strand, making dreams a reality. Step into our salon and let your hair tell its story in style. </p>
                 </div>
             </div>
 
@@ -64,18 +63,18 @@ export default function FirstPage() {
                 <div className="row row-content justify-content-evenly mt-md-5" id="meetBarber">
                     <div className="col-5" id="outerDiv1">
                         <img src={barber1} alt="" height="100%" width="100%" id="tiltImg" />
-                        <button className="btn col-12 col-md-12 bg-white " id="btnBarbers">REDO
-                            <a className="btn btn-social-icon btn-facebook bg-danger" href='/'><i className="fa fa-facebook"> </i> </a>
-                            <a className="btn btn-social-icon btn-instagram bg-danger" href='/'><i className="fa fa-instagram"></i> </a>
-                            <a className="btn btn-social-icon btn-whatsApp bg-danger text-white" href='/'><i className="fa fa-whatsapp"></i></a>
+                        <button className="btn col-12 col-md-12 bg-white mx-1" id="btnBarbers">REDO
+                            <a className="btn btn-social-icon btn-facebook bg-danger mx-1 text-white" href='/'><i className="fa fa-facebook"> </i> </a>
+                            <a className="btn btn-social-icon btn-instagram bg-danger mx-1 text-white" href='/'><i className="fa fa-instagram"></i> </a>
+                            <a className="btn btn-social-icon btn-whatsApp bg-danger  mx-1 text-white" href='/'><i className="fa fa-whatsapp"></i></a>
                         </button>
                     </div>
                     <div className="col-5 " id="outerDiv2">
                         <img src={me} className="" alt="" height="100%" width="100%" id="tiltImg" />
-                        <button className="btn col-12  col-md-12 bg-white " id="btnBarbers">EHTI
-                            <a className="btn btn-social-icon btn-facebook bg-danger" href='/'><i className="fa fa-facebook"></i></a>
-                            <a className="btn btn-social-icon btn-instagram bg-danger" href='/'><i className="fa fa-instagram"></i></a>
-                            <a className="btn btn-social-icon btn-whatsApp bg-danger text-white" href='/'><i className="fa fa-whatsapp"></i> </a>
+                        <button className="btn col-12  col-md-12 bg-white mx-1" id="btnBarbers">EHTI
+                            <a className="btn btn-social-icon btn-facebook bg-danger mx-1 text-white" href='/'><i className="fa fa-facebook"></i></a>
+                            <a className="btn btn-social-icon btn-instagram bg-danger mx-1 text-white" href='/'><i className="fa fa-instagram"></i></a>
+                            <a className="btn btn-social-icon btn-whatsApp bg-danger text-white mx-1" href='/'><i className="fa fa-whatsapp"></i> </a>
                         </button>
                     </div>
                 </div>
